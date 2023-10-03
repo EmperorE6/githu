@@ -1,0 +1,19 @@
+body{
+    margin:0 auto;
+}
+.parent{
+    background-color: yellow;
+    width:500px;
+    height:500px;
+    margin:0 auto;
+}
+.children{
+    background-color: black;
+    width:100px;
+    height: 100px;
+    transition: all 2s;
+}
+.parent:hover .children{
+    transform: translateX(400px);
+    background-color: green;
+}
