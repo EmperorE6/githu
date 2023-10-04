@@ -1,116 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
-
-* {
-    font-family: 'Poppins', sans-serif;
-    
+body{
+margin:0;
 }
-
-
-body {
-
-    margin:0;
-}
-
-.header {background-color: #fff;height: 71px;display: flex;justify-content: space-between;padding-left: 100px;padding-right: 100px;align-items: center;position: fixed;width: 100%;box-shadow: 0px 10px 10px #00000052;}
-
-.logo {
-
-}
-
-.menu {
-width: 500px;
-display: flex;
-justify-content: space-between;
-}
-
-.menu_link {
-
-}
-
-section {height: 561px;background-color: black;}
-
-.parent {
-    background: url(images/bg.jpeg) no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin: 0 auto;
-    width: 100%;
-    height: 100vh;
-    display: flex;
+.header{
+    height:70px;
+    display:flex;
     justify-content: space-between;
-    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
 }
-
-
-.children {
-    background-color: rgb(47, 194, 223);
-    width: 325px;
-    height: 147px;
-    padding: 10px;
-    transition: all ease-out 1s;
-    text-align: center;
-    padding-top: 34px;
+.logo{
+    font-size:30px;
+    font-weight: 600;
 }
-
-
-.children:hover {
-color:#fff;
-background-color: black;
-cursor: pointer;
+.menu{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    font-size:20px;
 }
-
-#background-video {
-    width: 100%;
-    height: 562px;
+#background-video{
+    width:100%;
+    height:600px;
     object-fit: cover;
 }
-
-.full_bg_cover {display: flex;justify-content: space-between;height: 100vh;background: url(images/bg.jpeg) no-repeat center;background-size: cover;background-blend-mode: luminosity;padding-left: 100px;padding-right: 100px;padding-top: 100px;}
-
-.home_text {width: 500px;}
-.big_text {font-size: 40px;color: #fff;font-weight: 600;text-shadow: 1px 2px black;}
-.smaller_text {font-size: 18px;font-weight: 500;color: #fff;}
-.smaller_text p {
-
-}
-
-.home_form {
-
-}
-
-.parent_of_children {
+.home_section{
     display: flex;
-    justify-content: space-around;
-margin:0 auto;
-width: 80%;
+    justify-content: space-between;
+    padding-right:100px;
+    padding-left:100px;
+    margin-top:-30%;
+    margin-bottom:18%;
+    align-items: center;
 }
-
-.children_title {font-size: 29px;font-weight: 600;margin-bottom: 10px;}
-
-.children_description {
-
+.user_form{
+width:300px;
+height: 200px;
+background-color: #fff;
+z-index: 999;
+padding:30px;
+border-radius: 12px;
 }
-
-
-.form_box {
-    background: #fff;
-    height: 400px;
-    width: 400px;
-    padding: 40px;
-    box-shadow: 0px 4px 3px 0px #000;
+.vnes{
+    display: block;
+    border:1px solid black;
+    margin-bottom:10px;
+    padding:15px;
+}
+.kopce{
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size:18px;
     border-radius: 10px;
 }
-
-.over_video {margin-top: -301px;height: 300px;}
-.video_title {
-    text-align: center;
-    font-size: 50px;
-    color: #fff;
-    text-shadow: 1px 4px 2px #0000008c;
+.home_text{
+    font-size:35px;
+    font-weight: 600;
 }
-
-.form_input {width: -webkit-fill-available;font-size: 18px;padding: 10px 10px;margin-bottom: 20px;margin-top: 3px;}
-
-.form_button {width: -webkit-fill-available;padding: 20px;font-size: 23px;background: #0074ff;border: none;border-radius: 10px;color: #fff;}
+.home_description{
+font-size:22px;
+font-weight: 500;
+}
+.contact_header{
+font-size:35px;
+font-weight: 600;
+margin-bottom:20px;
+}
+.contact img{
+    width:40px;
+    margin-right:20px;
+}
+.contact{
+    font-size:20px;
+}
+.services{
+    width:100%;
+    height:200px;
+}
+.box_title{
+    font-size:25px;
+    font-weight: 600;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right:100px;
+}
+.service_box{
+    border:2px solid black;
+    border-radius:10px;
+    text-align: center;
+    height:100px;
+}
+.contact_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
